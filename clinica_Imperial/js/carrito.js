@@ -183,7 +183,7 @@ class Carrito{
             })
         }
         else{
-            location.href="carrito.html";
+            location.href="https://divz3pi20lt4.cloudfront.net/carrito.html";
         }
     }
 
