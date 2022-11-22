@@ -1,3 +1,4 @@
+
 const formulario = document.querySelector('#formulario');
 function validar() {
 
