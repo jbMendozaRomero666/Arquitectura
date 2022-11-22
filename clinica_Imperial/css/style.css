@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    font-family: 'PT Serif', serif;
+
+}
+
+/* .app{
+    background: rgb(198,251,255);
+    background: linear-gradient(38deg, rgba(198,251,255,0.5) 0%, rgba(62,254,255,1) 44%, rgba(198,251,255,1) 89%);
+} */
+.contenedor-app{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    min-height: 100vh;
+   
+}
+
+.fondoColor{
+  background: linear-gradient(198.86deg, #87F2FB 4.28%, #47FBA4 55.09%, rgba(180, 250, 255, 0.3125) 103.82%);
+
+}
+.imagen{
+    
+        position: absolute;
+        width: 400px;
+        height: 350px;
+        left: 114px;
+        top: 220px;
+        background: url(../img/fondoLogo.png);
+    
+
+   
+}
+/* img{
+    max-width: 100%;
+} */
+
+.nombre-pagina{
+    text-align: center;
+    margin: 5rem 0;
+    font-weight: bold;
+}
+
+.Descripcion-pagina{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.formulario{
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.campo{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+
+label{
+    flex: 0 0 5rem;
+}
+
+input{
+    flex: 1;
+    padding: 5px;
+    
+}
+
+.boton{
+    text-align: center;
+    margin-left: 1rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    background: #C3F4FF;
+   border: 1px solid #000000;
+    
+}
+
+.boton:hover{
+    cursor: pointer;
+}
+
+.error{
+    background-color: rgb(255, 74, 74);
+    color: rgb(221, 223, 224);
+    text-align: center;
+    text-transform: uppercase;
+
+}
